@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Shaark</a>
+      <div class="group">
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search">
+          <span class="icon">
+            <ion-icon
+              id="searchBtn"
+              name="search-outline"
+              class="searchBtn"
+            ></ion-icon>
+            <ion-icon
+              id="closeBtn"
+              name="close-outline"
+              class="closeBtn"
+            ></ion-icon>
+          </span>
+        </div>
+        <ion-icon name="menu-outline" class="menuToggle"></ion-icon>
+      </div>
+      <div class="searchBox">
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </header>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
