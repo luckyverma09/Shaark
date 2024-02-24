@@ -58,7 +58,8 @@ let refreshInterval = setInterval(() => {
   next.click();
 }, 5000);
 function showSlider() {
-  // remove item active old
+  
+  
   let itemActiveOld = document.querySelector(".slider .list .item.active");
   let thumbnailActiveOld = document.querySelector(".thumbnail .item.active");
   itemActiveOld.classList.remove("active");
@@ -67,7 +68,7 @@ function showSlider() {
   items[itemActive].classList.add("active");
   thumbnails[itemActive].classList.add("active");
 
-  // clear auto time run slider
+
   clearInterval(refreshInterval);
   refreshInterval = setInterval(() => {
     next.click();
