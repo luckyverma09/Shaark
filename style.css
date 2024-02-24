@@ -17,6 +17,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+p,
+h2 {
+  color: #d3d0d0;
+}
 
 /* navbar */
 
