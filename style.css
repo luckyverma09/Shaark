@@ -36,7 +36,7 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
-  z-index: 11;
+  z-index: 100;
   backdrop-filter: blur(10px); /* Add this line for frosted glass effect */
   background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
 }
@@ -289,7 +289,7 @@ header .search {
 .thumbnail {
   position: absolute;
   bottom: 50px;
-  z-index: 11;
+  z-index: 10;
   display: flex;
   gap: 10px;
   width: 100%;
