@@ -265,7 +265,7 @@ header .search {
   position: absolute;
   top: 30%;
   right: 50px;
-  z-index: 100;
+  z-index: 11;
 }
 .content {
   color: #fff;
