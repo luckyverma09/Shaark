@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #9ea0a1;
+  background: #f3f3f3;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -30,7 +30,6 @@ header {
   left: 0;
   width: 100%;
   height: 80px;
-  /* background: #fff; */
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -49,11 +48,10 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-.logo span{
-  font-size: .8rem;
+.logo span {
+  font-size: 0.8rem;
   display: block;
   margin-top: -15px;
-
 }
 .group {
   display: flex;
@@ -202,16 +200,15 @@ header .search {
 
 /* blog */
 
-
 .blog {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
+  margin: 0 8rem;
 }
 .blogPicture {
-  margin-top: 80px;
+  margin-top: 78px;
   width: 100vw;
 }
 .blogPicture img {
@@ -221,12 +218,113 @@ header .search {
 }
 
 .blogContent {
+  /* border: 2px solid black; */
   margin-top: 40px;
+  padding: 5px 10rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 20px;
+}
+.blogContent h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  font-weight: 900;
+}
+/* .blogContent span {
+  padding-left: 50vw;
+  font-size: 1rem;
+} */
+.blogContent p {
+  color: black;
+}
+.blogContent h2 {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: left;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+.blogContent ul {
+  padding: 0 7rem;
+}
+.content {
+  padding: 10px 10em;
+}
+
+.content p {
+  /* margin-top: 2em; */
+  margin-left: 2em;
+}
+.content strong {
+  margin-top: 2em;
+  margin: 2em;
+}
+.afterStrong {
+  margin-left: 2em;
+  padding-left: 2em;
+}
+.content img {
+  padding-left: 10vw;
+}
+
+/* table */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table th {
+  background-color: #92c9e6;
+  color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #d1e8f5;
+}
+
+/*responsive*/
+
+@media (max-width: 500px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr {
+    margin-bottom: 15px;
+  }
+  .table td {
+    padding-left: 50%;
+    text-align: left;
+    position: relative;
+  }
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
 }
 
 /* footer */

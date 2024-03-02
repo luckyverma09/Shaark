@@ -49,11 +49,10 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-.logo span{
-  font-size: .8rem;
+.logo span {
+  font-size: 0.8rem;
   display: block;
   margin-top: -15px;
-
 }
 
 .group {
