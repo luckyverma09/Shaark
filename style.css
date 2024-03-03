@@ -226,7 +226,7 @@ header .search {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(to top, #000 40%, transparent);
+  /* background-image: linear-gradient(to top, #000 40%, transparent); */
 }
 .slider .list .item .content {
   position: absolute;
@@ -279,7 +279,7 @@ header .search {
   color: #fff;
 }
 
-.arrows button {
+/* .arrows button {
   background-color: #eee5;
   border: none;
   font-family: monospace;
@@ -289,12 +289,12 @@ header .search {
   font-size: x-large;
   color: #eee;
   transition: 0.5s;
-}
-.arrows button:hover {
+} */
+/* .arrows button:hover {
   background-color: #eee;
   color: black;
-}
-.thumbnail {
+} */
+/* .thumbnail {
   position: absolute;
   bottom: 50px;
   z-index: 10;
@@ -332,7 +332,7 @@ header .search {
 .thumbnail .item .content {
   position: absolute;
   inset: auto 10px 10px 10px;
-}
+} */
 @media screen and (max-width: 678px) {
   .thumbnail {
     justify-content: start;
