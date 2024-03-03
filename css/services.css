@@ -80,3 +80,28 @@
     rgb(32, 32, 32)
   );
 }
+@media only screen and (max-width: 768px) {
+  .services {
+    margin: 2%;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    margin: 2% 2%;
+  }
+  h2{
+    padding-right: 5rem;
+  }
+
+  .subCard li {
+    padding-right: 10%;
+    padding-top: 2%;
+  }
+
+  a.contactButton {
+    position: relative;
+    margin: 0 2% 2rem;
+    right: 0;
+  }
+}
