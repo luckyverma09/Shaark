@@ -1,0 +1,82 @@
+.services {
+  margin: 8rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.services h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 2rem 18rem;
+  position: relative;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  padding: 2rem 0 1rem 3rem;
+  font-size: 2rem;
+  color: #161616;
+}
+
+.subCard {
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.subCard:hover {
+  transform: scale(1.02);
+}
+
+.subCard h3 {
+  padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.subCard li {
+  padding-left: 7rem;
+  list-style-type: none;
+  font-weight: 500;
+  transition: transform 0.3s;
+}
+
+.subCard li:hover {
+  transform: translateX(5px);
+}
+.contactButton {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    rgb(48, 47, 47),
+    rgb(138, 134, 134)
+  );
+  color: white;
+  transform: background-image 2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactButton:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 132, 132),
+    rgb(32, 32, 32)
+  );
+}
