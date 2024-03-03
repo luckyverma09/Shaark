@@ -135,6 +135,7 @@ header .search {
 }
 .searchBtn {
   position: relative;
+  color: #353535;
   left: 30px;
   top: 2.5px;
   transition: 0.5s ease-in-out;
@@ -146,6 +147,7 @@ header .search {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
+  color: #353535;
   scale: 0;
 }
 .closeBtn.active {
@@ -158,6 +160,7 @@ header .search {
 .menuToggle {
   position: relative;
   display: none;
+  color: #353535;
 }
 
 @media (max-width: 880px) {
@@ -462,9 +465,20 @@ header .search {
   font-size: 1.125rem;
   /* background-color: #9b9b9b; */
 }
-.services h1 {
+.services a {
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  color: #090a0a;
+  text-decoration: none;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.services a:hover {
+  color: #545657;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .scroller {
@@ -504,7 +518,6 @@ header .search {
 .scroller[data-direction="left"] {
   --_animation-direction: forwards;
 }
-
 
 .scroller[data-speed="slow"] {
   --_animation-duration: 60s;
