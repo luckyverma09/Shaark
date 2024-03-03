@@ -48,6 +48,7 @@
   padding-left: 7rem;
   list-style-type: none;
   font-weight: 500;
+  text-decoration:none;
   transition: transform 0.3s;
 }
 
