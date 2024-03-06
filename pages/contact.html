@@ -20,7 +20,6 @@
             <div class="group">
                 <ul class="navigation">
                     <li><a href="/index.html">Home</a></li>
-                    <!-- <li><a href="#">About</a></li> -->
                     <li><a href="/pages/service.html">Services</a></li>
                     <li><a href="/index.html#blog">Blog</a></li>
                     <li><a href="/pages/contact.html">Contact</a></li>
@@ -41,7 +40,7 @@
         <!-- contact us -->
 
         <div class="contact">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form>
                 <h3>GET IN TOUCH</h3>
                 <input type="text" id="name" placeholder="Your name" required>
                 <input type="email" id="email" placeholder="Your Email id" required>
@@ -53,15 +52,13 @@
 
         <!-- footer -->
 
-        <footer class="footer">
+        <footer id="smooth-content" class="footer">
             <div class="footerContainer">
                 <div class="footerRow">
                     <div class="footer-col">
                         <h4>company</h4>
                         <ul>
                             <li><a href="#">about us</a></li>
-                            <li><a href="#">privacy policy</a></li>
-                            <li><a href="#">affiliate program</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -81,21 +78,30 @@
                             <li><a href="/pages/service.html"> Advisory Services</a></li>
                             <li><a href="/pages/service.html"> Change in Business</a></li>
                             <li><a href="/pages/service.html">Finance</a></li>
+
                         </ul>
                     </div>
                     <div class="footer-col">
                         <h4>follow us</h4>
                         <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61557078181691" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/SHAARKTEAMS" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.instagram.com/ca_shark?igsh=cG44Y3BicGZoa215" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/shaark-consultancy-6088222b8/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="/email.js"></script>
+
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="/script.js"></script>
