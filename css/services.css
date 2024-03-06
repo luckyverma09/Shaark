@@ -1,112 +1,100 @@
-.services {
-  margin: 8rem;
-  border-radius: 10px;
-  position: relative;
+/* services */
+
+.service-section {
+  width: 100%;
+  background: white center;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 
-.services h1 {
+.service-section h1 {
   text-align: center;
-  font-weight: 700;
-  font-size: 3rem;
+  padding: 25px 0px;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700px;
 }
 
 .card {
-  border: 2px solid #e0e0e0;
-  border-radius: 10px;
-  margin: 2rem 18rem;
-  position: relative;
-  transition: transform 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-  transform: scale(1.02);
-}
-
-.card h2 {
-  padding: 2rem 0 1rem 3rem;
-  font-size: 2rem;
-  color: #161616;
-}
-
-.subCard {
-  position: relative;
-  transition: transform 0.3s;
-}
-
-.subCard:hover {
-  transform: scale(1.02);
-}
-
-.subCard h3 {
-  padding-left: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-.subCard li {
-  padding-left: 7rem;
-  list-style-type: none;
-  font-weight: 500;
-  text-decoration:none;
-  transition: transform 0.3s;
-}
-
-.subCard li:hover {
-  transform: translateX(5px);
-}
-.contactButton {
-  position: absolute;
-  top: 30px;
-  right: 25px;
+  width: 90%;
+  margin: auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-item {
+  position: relative;
+  flex-basis: 23%;
+  border-radius: 10px;
+  margin: 10px 0;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-item h3 {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.card-item h4 {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #4d4a4a;
+  text-align: left;
+}
+
+.card-item ul {
+  padding: 10px 30px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+}
+
+.card-item ul li {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  color: #4d4a4a;
+  transition: transform 0.3s ease;
+}
+
+.card-item ul li:hover {
+  transform: translateX(10px);
+}
+
+.card-item button {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 10px 25px;
+  margin-top: 10px;
   border: none;
   border-radius: 10px;
-  padding: 10px 30px;
-  cursor: pointer;
-  background-image: linear-gradient(
-    to right,
-    rgb(48, 47, 47),
-    rgb(138, 134, 134)
-  );
+  background-color: #494848;
   color: white;
-  transform: background-image 2s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.contactButton:hover {
-  background-image: linear-gradient(
-    to right,
-    rgb(134, 132, 132),
-    rgb(32, 32, 32)
-  );
+.card-item button:hover {
+  background-color: #dddddd;
+  color: #030303;
 }
-@media only screen and (max-width: 768px) {
-  .services {
-    margin: 2%;
-    margin-top: 7rem;
-    margin-bottom: 3rem;
-  }
 
+@media only screen and (min-width: 200px) and (max-width: 768px) {
   .card {
-    margin: 2% 2%;
-  }
-  h2{
-    padding-right: 5rem;
+    width: 100%;
+    flex-direction: column;
   }
 
-  .subCard li {
-    padding-right: 10%;
-    padding-top: 2%;
-  }
-
-  a.contactButton {
-    position: relative;
-    margin: 0 2% 2rem;
-    right: 0;
+  p {
+    margin: 10px;
+    font-size: 12px;
   }
 }
-
 
 /* footer */
 
