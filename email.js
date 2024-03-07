@@ -9,10 +9,10 @@ function sendEmail() {
 
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "idonthaveemail1af@gmail.com",
-    Password: "84958EEADF3AF99E547D04E5D6FE77E96552",
-    To: "idonthaveemail1af@gmail.com",
-    From: "idonthaveemail1af@gmail.com",
+    Username: "Shaark.teams@gmail.com",
+    Password: "23C9125BE4D20A21643647826F2D45827518",
+    To: "Shaark.teams@gmail.com",
+    From: "Shaark.teams@gmail.com",
     Subject: "Message from User",
     Body: bodyMessage,
   }).then((message) => {
