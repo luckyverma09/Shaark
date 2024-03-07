@@ -339,7 +339,7 @@ header .search {
   font-size: 1.125rem;
   /* background-color: #9b9b9b; */
 }
-.services a {
+#service-heading{
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -349,7 +349,7 @@ header .search {
   transition-duration: 0.3s;
 }
 
-.services a:hover {
+service-heading:hover {
   color: #545657;
   text-decoration: none;
   cursor: pointer;
@@ -424,13 +424,16 @@ html {
   list-style: none;
 }
 
-.tag-list li {
-  padding: 1rem;
+.tag-list li a{
+  padding: 10px;
   background: #272525;
-  color: #dbe0e2;
+  color: #e2e9ec;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
 }
+
+
+
 
 /* footer */
 
