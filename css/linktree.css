@@ -72,10 +72,11 @@ body {
     padding-top: 10%;
   }
   .enlaces {
-    width: 80%; /* Adjusted width for smaller screens */
+    width: 80%;
   }
   .nombre {
-    font-size: 2rem; /* Adjusted font size for smaller screens */
+    font-size: 2rem;
+    padding-top: 10%;
   }
   .container_enlaces {
     width: 60%;
