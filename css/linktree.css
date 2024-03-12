@@ -56,13 +56,13 @@ body {
   color: white;
   transition-duration: 0.7s;
   font-size: 1rem;
+  border-radius: 20px;
 }
 
 .enlaces:hover {
   background-color: #b3b2aa;
   color: #222831;
   transition-duration: 0.5s;
-  border-radius: 20px;
 }
 
 /* Media queries for responsiveness */
