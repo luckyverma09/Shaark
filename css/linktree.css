@@ -56,21 +56,29 @@ body {
   color: white;
   transition-duration: 0.7s;
   font-size: 1rem;
+  border-radius: 20px;
 }
 
 .enlaces:hover {
   background-color: #b3b2aa;
   color: #222831;
   transition-duration: 0.5s;
-  border-radius: 20px;
 }
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+  .container_foto {
+    width: 70%;
+    padding-top: 10%;
+  }
   .enlaces {
-    width: 80%; /* Adjusted width for smaller screens */
+    width: 80%;
   }
   .nombre {
-    font-size: 2rem; /* Adjusted font size for smaller screens */
+    font-size: 2rem;
+    padding-top: 10%;
+  }
+  .container_enlaces {
+    width: 60%;
   }
 }
