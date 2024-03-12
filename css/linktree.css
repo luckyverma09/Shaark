@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Fira Code", monospace;
+  color: #a8a8a3;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container_foto {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+.foto_img {
+  max-width: 100%;
+  border-radius: 2%;
+}
+
+.nombre {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 3rem;
+}
+
+.container_enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  gap: 20px;
+}
+
+.enlaces {
+  background-color: #393e46;
+  width: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.7s;
+  font-size: 1rem;
+}
+
+.enlaces:hover {
+  background-color: #b3b2aa;
+  color: #222831;
+  transition-duration: 0.5s;
+  border-radius: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .enlaces {
+    width: 80%; /* Adjusted width for smaller screens */
+  }
+  .nombre {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+}
