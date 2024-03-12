@@ -67,10 +67,17 @@ body {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+  .container_foto {
+    width: 70%;
+    padding-top: 10%;
+  }
   .enlaces {
     width: 80%; /* Adjusted width for smaller screens */
   }
   .nombre {
     font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+  .container_enlaces {
+    width: 60%;
   }
 }
